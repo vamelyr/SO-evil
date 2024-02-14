@@ -40,3 +40,12 @@ document.addEventListener('DOMContentLoaded', function () {
         jumpscareImage.style.display = 'block';
     }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const yesImage = document.getElementById('yes-image');
+    const yesButton = document.getElementById("yes");
+
+    yesButton.addEventListener('click', function() {
+        yesImage.style.display = "block";
+    });
+});
