@@ -43,10 +43,7 @@ body {
     transform: translate(-50%, -40%);
     align-items: center;
     /*centering */
-
-
 }
-
 
 div#title img {margin: 10px;}
 
@@ -75,20 +72,26 @@ button {
     border: none;
     border-radius: 8px;
     font-size: 18px;
-    
 }
 
 button:hover {
     background-image: linear-gradient(180deg, rgba(251, 215, 149), rgba(251, 215, 149));
-    transform: scale(1.05);
-    
+    transform: scale(1.05); 
 }
+
 .buttons {
 width: 40%;
 }
 
-#no {
-  position: absolute;
+#no { position: absolute; }
+#yes-image {
+    display: none;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999; 
 }
 
 #jumpscare-image {
