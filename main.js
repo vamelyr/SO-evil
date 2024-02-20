@@ -11,10 +11,7 @@ function moveButton() {
     
     let top = Math.min(getRandomNumber(maxY), 500);
 
-    // to make the button stay within the viewport
-    // left = Math.min(Math.max(left, 0), maxX);
-    // top = Math.min(Math.max(top, 0), maxY);
-
+    
     // button's position
     button.style.left = left + "px";
     button.style.top = top + "px";
