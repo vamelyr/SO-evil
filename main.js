@@ -41,6 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
+//if the yes button is clicked
 document.addEventListener('DOMContentLoaded', function() {
     const yesImage = document.getElementById('yes-image');
     const yesButton = document.getElementById("yes");
